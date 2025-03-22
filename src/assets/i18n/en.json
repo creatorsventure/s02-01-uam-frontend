@@ -1,0 +1,129 @@
+{
+  "app": {
+    "name": "UAM",
+    "author": "Ramakrishna R",
+    "description": "This is an User Access Management application. Please manage the users, access etc here.",
+    "privacy": "privacy",
+    "rights": "All rights reserved",
+    "version": "1.0",
+    "year": "2024",
+    "general": {
+      "button": {
+        "all": "All",
+        "add": "Add",
+        "edit": "Edit",
+        "view": "View",
+        "submit": "Submit",
+        "reset": "Reset",
+        "delete": "Delete",
+        "yes": "Yes",
+        "no": "No",
+        "back": "Back"
+      },
+      "page": {
+        "id": "Id",
+        "name": "Name",
+        "description": "Description",
+        "status": "Status"
+      },
+      "pagination": {
+        "noData": "No data found",
+        "options": "Options",
+        "searchField": "Search field",
+        "searchValue": "Search value",
+        "select": "Select",
+        "id": "Id",
+        "name": "Name",
+        "description": "Description",
+        "status": "Status"
+      },
+      "tooltip": {
+        "general": "Field: {{controlName}} -> Min Length: {{minLength}}, Max Length: {{maxLength}}, Allowed: {{pattern}}",
+        "email": "Invalid email address"
+      },
+      "status": {
+        "active": "Active",
+        "inactive": "Inactive"
+      },
+      "popup": {
+        "deletePopUp": "Are you sure to delete?",
+        "statusPopUp": "Are you sure to change status?"
+      },
+      "audit": {
+        "createdAt": "Created At",
+        "createdBy": "Created By",
+        "modifiedAt": "Modified At",
+        "modifiedBy": "Modified By"
+      }
+    },
+    "page": {
+      "governance": {
+        "name": "Governance"
+      },
+      "menu": {
+        "name": "Menu",
+        "description": "Menu can be created here!",
+        "label": {
+          "path": "Path",
+          "icon": "Icon",
+          "iconType": "Icon Type",
+          "iconTheme": "Icon Theme",
+          "rootMenuId": "Root Menu Id",
+          "displayPosition": "Display Position",
+          "menuType": "Menu Type"
+        }
+      },
+      "role": {
+        "name": "Role",
+        "description": "Role can be created here!"
+      },
+      "user": {
+        "name": "User",
+        "description": "User can be created here!"
+      },
+      "password": {
+        "name": "Password",
+        "description": "Password can be created here!"
+      }
+    },
+    "regxPatterns": {
+      "input": "Upper case, Lower case, Numeric, Underscore, Space",
+      "inputSpecial": "Upper case, Lower case, Numeric, Underscore, Comma, Slash, Hyphen, Dot",
+      "numeric": "Numeric",
+      "password": "Upper case, Lower case, Numeric, @ $ #",
+      "select-one": "Select Options"
+    },
+    "message": {
+      "generic": {
+        "error": "Error",
+        "info": "Information",
+        "refer-console": "Refer developer console in the browser for exception details.",
+        "success": "Success",
+        "warning": "Warning"
+      },
+      "success": {
+        "000": "Operation completed successfully."
+      },
+      "failure": {
+        "000": "Problem occurred. Please try again later.",
+        "001": "Field should not be empty.",
+        "002": "Field should not be null.",
+        "003": "Requested Data Not available or Inactive.",
+        "004": "Please input your password!",
+        "005": "Please input your email!",
+        "006": "Field required minimum/maximum length of input.",
+        "007": "Field required minimum/maximum length of input.",
+        "008": "Input contains not allowed symbols.",
+        "009": "Field accept only numeric",
+        "010": "Password should contain at least one upper case",
+        "011": "Password should contain at least one lower case",
+        "012": "Password should contain at least one numeric",
+        "013": "Password should contain at least one special char",
+        "014": "Password should contain alphabets",
+        "015": "Password should contain @ or # or $",
+        "016": "Password / Confirm password not matched",
+        "017": "Please input valid email address"
+      }
+    }
+  }
+}
